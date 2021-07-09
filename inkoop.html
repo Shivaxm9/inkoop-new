@@ -104,7 +104,7 @@ position : auto;
 }
 
 #main {
-  transition: margin-left .5s; /* If you want a transition effect */
+  transition: margin-left .5s; 
   padding: 20px;
 }
 
@@ -138,15 +138,21 @@ border-radius: 40%;
 background-color: red;
 
 }
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+	}
 </style>
 <script>
-/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
 }
 
-/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
@@ -212,6 +218,11 @@ function closeNav() {
     </div>
   </div>
 </div>
+
+	<footer>
+  <p>DEMO SITE MADE BY SHIVA RAJ FOR INKOOP <br>
+  <a>THIS IS A SINGLE RESPONSIVE PAGE.</a></p>
+</footer>
 
 
 </body>
